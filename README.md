@@ -47,8 +47,11 @@ For a complete list of dependencies, check the package.json file.
 text
 src/
 ├── BasicReactFlow.jsx    # Main component with flow logic
+
 ├── BasicReactFlow.css    # Styles for the application
+
 ├── App.js               # Root application component
+
 └── index.js             # Application entry point
 
 ## Usage
