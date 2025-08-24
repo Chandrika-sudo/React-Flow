@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+## React Flow Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A  node-based diagramming application built with React Flow. This application allows you to create, connect, and manage styled nodes with a context menu and drag-and-drop functionality.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+ Right-click context menu with "Hello World" option
+ Drag-and-drop blocks from sidebar to canvas
+ Connect nodes with edges
+ Dynamic numbering of blocks
+ Professional UI with clean design
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have the following installed:
+Node.js (version 14 or higher)
+npm or yarn package manager
+Git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+Clone the repository (if you have an existing repository):
 
-### `npm test`
+git clone <your-repository-url>
+cd react-flow
+Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+Start the development server:
 
-### `npm run build`
+npm start
+Open your browser and navigate to http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
+This project uses the following main dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+react (^19.1.1)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+react-dom (^19.1.1)
 
-### `npm run eject`
+reactflow (^11.11.4)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+react-scripts (5.0.1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For a complete list of dependencies, check the package.json file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
+text
+src/
+├── BasicReactFlow.jsx    # Main component with flow logic
+├── BasicReactFlow.css    # Styles for the application
+├── App.js               # Root application component
+└── index.js             # Application entry point
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+Adding Blocks: Drag blocks from the sidebar to the canvas
 
-## Learn More
+Connecting Nodes: Click and drag from the handles of nodes to create connections
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Context Menu: Right-click on any node to access the context menu
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Git Commands
+Initializing a New Repository
+Initialize Git:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git init
+git add .
+git commit -m "Initial commit: React Flow application"
+Add remote repository (replace with your URL):
+git remote add origin https://github.com/your-username/your-repository-name.git
+git branch -M main
+git push -u origin main
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Available Scripts
 
-### Making a Progressive Web App
+npm start - Runs the app in development mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm test - Launches the test runner
 
-### Advanced Configuration
+npm run build - Builds the app for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm run eject - Ejects from Create React App (one-way operation)
 
-### Deployment
+## Troubleshooting
+Dependency issues: Delete node_modules and package-lock.json, then run npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Port already in use: Use npm start with a different port: PORT=3001 npm start
 
-### `npm run build` fails to minify
+Git push rejected: Pull latest changes first: git pull origin main
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is open source and available for free.
+
+## Support
+If you encounter any issues or have questions:
+
+Check the React Flow documentation: https://reactflow.dev
+
+Search existing GitHub issues
+
+Create a new issue with detailed information about your problem
