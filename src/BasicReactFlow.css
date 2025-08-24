@@ -1,0 +1,85 @@
+.pinkBlock {
+  background-color: pink;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #d63384;
+  min-width: 120px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.yellowLabel {
+  font-family: 'Calibri', sans-serif;
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contextMenu {
+  position: fixed;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  z-index: 1000;
+  min-width: 150px;
+  font-family: 'Calibri', sans-serif;
+}
+
+.menuItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  margin-bottom: 5px;
+}
+
+.highlightOnHover:hover {
+  background-color: #e9ecef;
+}
+
+.sidebar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  bottom: 10px;
+  width: 200px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  overflow-y: auto;
+}
+
+.draggableBlock {
+  background-color: pink;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px dashed #d63384;
+  margin-bottom: 15px;
+  cursor: grab;
+  text-align: center;
+}
+
+.blockPreview {
+  font-family: 'Calibri', sans-serif;
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.flowContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.flowArea {
+  width: 100%;
+  height: 100%;
+}
