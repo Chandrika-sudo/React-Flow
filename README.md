@@ -5,16 +5,23 @@ A  node-based diagramming application built with React Flow. This application al
 ## Features
 
  Right-click context menu with "Hello World" option
+ 
  Drag-and-drop blocks from sidebar to canvas
+ 
  Connect nodes with edges
+ 
  Dynamic numbering of blocks
+ 
  Professional UI with clean design
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 Node.js (version 14 or higher)
+
 npm or yarn package manager
+
 Git
 
 ## Installation
@@ -46,15 +53,16 @@ For a complete list of dependencies, check the package.json file.
 ## Project Structure
 text
 src/
-├── BasicReactFlow.jsx    # Main component with flow logic
+├── BasicReactFlow.jsx   
 
-├── BasicReactFlow.css    # Styles for the application
+├── BasicReactFlow.css 
 
-├── App.js               # Root application component
+├── App.js               
 
-└── index.js             # Application entry point
+└── index.js    
 
 ## Usage
+
 Adding Blocks: Drag blocks from the sidebar to the canvas
 
 Connecting Nodes: Click and drag from the handles of nodes to create connections
